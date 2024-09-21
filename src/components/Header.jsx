@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <img src={logo} />
+        <img src={logo} alt/>
         <div className="navbar">
           <a href="" target="_blank">
             <FaInstagram />

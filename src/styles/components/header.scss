@@ -1,14 +1,19 @@
+@import '../mixins.scss';
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20px 0;
+    padding: 16px 0;
     margin: 10px;
 
     img {
         width: 145px;
         margin-bottom:5px ;
+        
+        @include responsive(tablet) { width: 200px; }
+        @include responsive(desktop) { width: 250px; }
     }
 
 
@@ -26,10 +31,7 @@
 }
 
 .line-container{
-     border-bottom: 2px solid white;  
+     border-bottom: 1.5px solid white;  
     width: 100%;  
 }
 
-@media (min-width: 1280px) {
-
-  }

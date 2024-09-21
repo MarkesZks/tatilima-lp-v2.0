@@ -1,0 +1,9 @@
+// Responsividade
+// Caso queira mudar o nome da variavel para md ou lg | medium or larg
+@mixin responsive($screenSize) {
+  @if $screenSize == tablet {
+    @media (min-width: 800px) { @content; }
+  } @else if $screenSize == desktop {
+    @media (min-width: 1200px) { @content; }
+  }
+}
