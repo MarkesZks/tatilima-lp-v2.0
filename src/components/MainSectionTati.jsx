@@ -10,13 +10,13 @@ const MainSectionTati = () => {
 				<img
 					src={ProfileMainImg}
 					className="imgMainProfile"
-					alt="perfil main imagem"
+					alt="Imagem de perfil principal"
 				/>
-				<div className="textContainer">
-					<span>Ceo Studio Tati Lima & Mentora</span>
-					<img src={logoTituloMain} alt="logo titulo main" />
-					<div className="scrollDown">
-						<ArrowDown />
+				<div className="text-container">
+					<span className="title">Ceo Studio Tati Lima & Mentora</span>
+					<img src={logoTituloMain} alt="Logo principal" className="logo" />
+					<div className="scroll-down">
+						<ArrowDown className="animated-arrow"/>
 						<span>Role para baixo</span>
 					</div>
 				</div>
