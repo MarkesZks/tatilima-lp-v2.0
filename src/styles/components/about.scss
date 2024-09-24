@@ -1,10 +1,14 @@
+@import "../mixins.scss";
+
 .about-container {
-  margin-top: 15px;
+  margin: 30px 0;
 
   .about-content {
+    width: 100%;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, .65);
     line-height: 1.6;
+
     .jump-line {
       display: inline-block;
       width: 100%;
@@ -13,6 +17,27 @@
     }
   }
 
-  // TODO: Responsividade
-  
+  .about-infos {
+    width: 100%;
+    margin-bottom: 20px; // Ajuste o margin conforme necessário
+  }
+
+  @include responsive('tablet') {
+    margin: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    font-size: 1.2rem;
+
+    .about-content {
+      width: 50%;
+      margin-bottom: 0;
+    }
+    .about-infos {
+      font-size: 1.4rem;
+      width: 50%;
+      margin-bottom: 0;
+    }
+  }
 }

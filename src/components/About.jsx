@@ -3,7 +3,7 @@ import AboutInfo from './AboutInfo';
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about-container">
       <div className="about-content">
         Tati Lima é Designer de Sobrancelhas, Mentora Marketeira, Educadora
         Beauty e a Rainha! Ela é referência em procedimentos naturais e

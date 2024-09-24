@@ -1,11 +1,23 @@
 import "../styles/components/mainSectionTati.scss";
 import logoTituloMain from "../assets/images/logoMain.png";
 import ProfileMainImg from "../assets/images/ProfileMainImg.png";
-import { ArrowDown } from "lucide-react";
+import About from "./About";
+import SchedulingSection from "./SchedulingSection";
+import { ChevronDown } from "lucide-react";
 
 const MainSectionTati = () => {
+
+	const scrollToSection = (sectionId) => {
+		const element = document.getElementById(sectionId)
+		if (element) {
+			element.scrollIntoView({ behavior: 'smooth' })
+		}
+	}
+
 	return (
-		<section className="main-section">
+		<section >
+			<div className="main-section">
+
 			<div className="container">
 				<img
 					src={ProfileMainImg}
@@ -15,13 +27,18 @@ const MainSectionTati = () => {
 				<div className="text-container">
 					<span className="title">Ceo Studio Tati Lima & Mentora</span>
 					<img src={logoTituloMain} alt="Logo principal" className="logo" />
-					<div className="scroll-down">
-						<ArrowDown className="animated-arrow"/>
+					<div className="scroll-down" onClick={() => scrollToSection('about-container')}>
+						<ChevronDown className="animated-arrow"/>
 						<span>Role para baixo</span>
 					</div>
 				</div>
 			</div>
+			</div>
+		<About />
+		<SchedulingSection/>
+
 		</section>
+		
 	);
 };
 

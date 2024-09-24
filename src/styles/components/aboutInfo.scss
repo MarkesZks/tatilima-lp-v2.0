@@ -1,7 +1,10 @@
+@import '../mixins.scss';
+
 .about-info-container {
   display: flex;
   align-items: center;
   margin: 12px 0;
+  
 
   .sm-logo {
     width: 36px;
@@ -11,6 +14,14 @@
 
   p {
     margin: 0;
+  }
+
+  @include responsive('tablet') {
+    .sm-logo {
+      width: 48px;
+      height: auto;
+      margin-right: 20px;
+    }
   }
 }
 

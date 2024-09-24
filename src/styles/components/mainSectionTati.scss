@@ -79,6 +79,10 @@
         text-align: left;
         width: 100%;
         
+        span{
+          font-size: 24px;
+        }
+        
         .title {
           font-size: 2rem;
           margin-top: 0;
@@ -92,6 +96,11 @@
         .scroll-down {
           cursor: pointer;
           margin-top: 30px;
+
+          .animated-arrow{
+            width: 40px;
+            height: 40px;
+          }
         }
       }
     }
