@@ -1,0 +1,41 @@
+@import '../mixins.scss';
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    a{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+}
+.footer{
+    padding-top: 70px;
+    img{
+        width: 120px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 10px;
+        
+    }
+    .conteudos-container p{
+        padding: 25px 0px 50px 0px;
+        font-size: 16px;
+    }
+    .icons{
+        a{
+            font-size: 35px;
+        }
+    }
+}
+@include responsive('tablet') {
+    //Terminar falta
+    .d-flex .icons{
+        flex-direction: column;
+    }
+    }
+  
