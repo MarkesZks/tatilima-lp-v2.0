@@ -43,12 +43,13 @@
       }
 
       .scroll-down {
-        display: none;
+        display: none; // default behavior for mobile
       }
     }
   }
 
-  @include responsive('tablet') {
+  // Tablet mode
+  @include responsive("tablet") {
     .container {
       flex-direction: row;
       justify-content: space-between;
@@ -65,11 +66,11 @@
         align-items: flex-start;
         text-align: left;
         width: 100%;
-        
-        span{
+
+        span {
           font-size: 24px;
         }
-        
+
         .title {
           font-size: 2rem;
           margin-top: 0;
@@ -81,12 +82,12 @@
         }
 
         .scroll-down {
-          
-
+          display: flex;
           cursor: pointer;
           margin-top: 30px;
 
-          .animated-arrow{
+          .animated-arrow {
+            animation: fadeSlide 3s infinite;
             width: 40px;
             height: 40px;
           }
@@ -95,7 +96,7 @@
     }
   }
 
-  @include responsive('desktop') {
+  @include responsive("desktop") {
     .container {
       max-width: 1400px;
       padding: 40px;
@@ -122,20 +123,28 @@
           align-self: flex-end;
           margin-top: 100px;
           font-size: 2rem;
+
+          .animated-arrow {
+            width: 40px;
+            height: 40px;
+          }
         }
       }
     }
   }
 }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+@keyframes fadeSlide {
+  0% {
+    transform: translateY(-10px);
+    opacity: 1;
   }
-  40% {
-    transform: translateY(10px);
+  50% {
+    transform: translateY(15px);
+    opacity: 0;
   }
-  60% {
-    transform: translateY(5px);
+  100% {
+    transform: translateY(-10px);
+    opacity: 1;
   }
 }
