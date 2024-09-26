@@ -9,10 +9,10 @@ import {
   } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className='footer d-flex'>
+    <footer className='footer'>
         <img src={logo} alt="Tati Lima Logo" />
         <div className='conteudos-container'>
-            <nav className='d-flex'>
+            <nav className='navbar-footer'>
               <a href="">Sobre</a>
                 <a href="">Procedimentos</a>
                 <a href="">Cursos</a>

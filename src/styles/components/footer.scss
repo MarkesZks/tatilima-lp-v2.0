@@ -1,41 +1,70 @@
 @import '../mixins.scss';
-*{
+* {
     text-decoration: none;
     list-style-type: none;
-}
-
-.d-flex{
+  }
+  .footer{
     display: flex;
-    justify-content: space-around;
-    a{
-        font-size: 15px;
-        padding: 20px;
-    }
-
-}
-.footer{
-    padding-top: 70px;
-    img{
-        width: 120px;
-        height: auto;
-        object-fit: contain;
-        margin-right: 10px;
-        
-    }
-    .conteudos-container p{
-        padding: 25px 0px 50px 0px;
-        font-size: 16px;
-    }
-    .icons{
+    align-items: center;
+    flex-direction: column;
+    .navbar-footer{
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
         a{
-            font-size: 35px;
+            font-size: 18px;
         }
     }
-}
-@include responsive('tablet') {
-    //Terminar falta
-    .d-flex .icons{
-        flex-direction: column;
+    .conteudos-container{
+        p{
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
     }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+        a{
+            font-size: 45px;
+        }
     }
-  
+  }
+@include responsive('desktop') {
+    .footer{
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+       
+        .navbar-footer{
+            margin: 50px 0px;
+            flex-direction: row;
+            gap: 25px;
+            
+            a{
+                font-size: 18px;
+            }
+        }
+        .conteudos-container{
+            p{
+            
+                font-size: 16px;
+                margin-bottom: 0px;
+                padding-bottom: 10px;
+                text-align: center;
+            }
+        }
+        .icons{
+            display: flex;
+            gap: 35px;
+            a{
+                font-size: 35px;
+            }
+        }
+      }
+    }
+   
