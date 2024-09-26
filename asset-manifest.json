@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FelipeMatthew/tatilima-lp-v2.0/static/css/main.1b6f6942.css",
+    "main.js": "/FelipeMatthew/tatilima-lp-v2.0/static/js/main.b6cf46b3.js",
+    "static/media/evolution-brows.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/evolution-brows.9743537b7bbe9998a802.png",
+    "static/media/consultoria-shine.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/consultoria-shine.e1d7d8c60774ec59ad5d.png",
+    "static/media/start-brows.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/start-brows.93f74be9c6ea7ccfba52.png",
+    "static/media/ClientImageMain.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/ClientImageMain.446147aa944e27706118.png",
+    "static/media/planejamento-luz.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/planejamento-luz.5ddadb61845ff82a8017.png",
+    "static/media/ProfileMainImg.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/ProfileMainImg.edd4d6875d3032413993.png",
+    "static/media/mentoria-queen.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/mentoria-queen.6cf30a19f4704aa14c71.png",
+    "static/media/logoMain.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/logoMain.d73b3d31d05d9fc8a838.png",
+    "static/media/logoAboutMain.png": "/FelipeMatthew/tatilima-lp-v2.0/static/media/logoAboutMain.cebc26cbe8b7e67c2518.png",
+    "index.html": "/FelipeMatthew/tatilima-lp-v2.0/index.html",
+    "main.1b6f6942.css.map": "/FelipeMatthew/tatilima-lp-v2.0/static/css/main.1b6f6942.css.map",
+    "main.b6cf46b3.js.map": "/FelipeMatthew/tatilima-lp-v2.0/static/js/main.b6cf46b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b6f6942.css",
+    "static/js/main.b6cf46b3.js"
+  ]
+}
