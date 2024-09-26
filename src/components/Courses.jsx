@@ -17,6 +17,8 @@ const Courses = () => {
               content={course.content}
               buttonText={course.buttonText}
               image={course.image}
+              url={course.url}
+              isImageLeft={course.isImageLeft}
             />
           ))}
         </div>
@@ -31,6 +33,8 @@ const Courses = () => {
               content={course.content}
               buttonText={course.buttonText}
               image={course.image}
+              url={course.url}
+              isImageLeft={course.isImageLeft}
             />
           ))}
         </div>

@@ -1,8 +1,9 @@
+@import "../mixins.scss";
+
 .card-container {
   display: flex;
   flex-direction: column;
   margin: 30px 0;
-
 
   .card-content {
     display: flex;
@@ -18,9 +19,49 @@
     object-fit: cover;
     margin-bottom: 20px;
   }
-  
+
   .card-title {
     font-weight: 600;
     font-size: 28px;
+  }
+
+  @include responsive("tablet") {
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 80px;
+
+    &.left-image {
+      .card-image {
+        order: 1;
+        width: 580px;
+        height: auto;
+      }
+      .card-content {
+        order: 2;
+        justify-content: center;
+        gap: 20px;
+        p {
+          letter-spacing: 0.7px;
+          font-size: 1.3rem;
+        }
+      }
+    }
+
+    &.right-image {
+      .card-image {
+        order: 2;
+        width: 580px;
+        height: auto;
+      }
+      .card-content {
+        order: 1;
+        justify-content: center;
+        gap: 20px;
+        p {
+          letter-spacing: 0.7px;
+          font-size: 1.3rem;
+        }
+      }
+    }
   }
 }

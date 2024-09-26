@@ -15,15 +15,20 @@
   font-size: 17px;
   border-radius: 6px;
   font-weight: 500;
-  color: #fff; /* Texto branco */
-  background: transparent; /* Fundo transparente por padrão */
+  color: #fff;
+  background: transparent;
+
+  a:hover {
+    text-decoration: none;
+    color: #672471;
+  }
 }
 
 .card-button:before {
   content: "";
   position: absolute;
   z-index: -1;
-  background: transparent; /* Transparente por padrão */
+  background: transparent;
   height: 150px;
   width: 200px;
   border-radius: 50%;
@@ -31,15 +36,15 @@
 }
 
 .card-button:hover {
-  color: var(--color); /* Texto roxo ao passar o mouse */
-  background-color: #fff; /* Fundo branco no hover */
-  border-color: var(--color); /* Borda roxa ao passar o mouse */
+  color: var(--color); 
+  background-color: #fff; 
+  border-color: var(--color);
 }
 
 .card-button:hover:before {
   top: -30px;
   left: -30px;
-  background: #fff; /* Fundo branco no hover */
+  background: #fff;
 }
 
 .card-button:active:before {
