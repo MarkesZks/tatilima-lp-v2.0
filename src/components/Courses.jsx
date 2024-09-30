@@ -7,7 +7,7 @@ import { faceToFaceCourses, onlineCourses } from "../utils/cart_content";
 const Courses = () => {
 	return (
 		<div className="courses-container">
-			<div className="face-to-face-courses">
+			<div className="face-to-face-courses" id="face-to-face-courses">
 				<h2>Cursos presenciais</h2>
 				<div>
           {faceToFaceCourses.map((course, index) => (
@@ -23,7 +23,7 @@ const Courses = () => {
           ))}
         </div>
 			</div>
-			<div className="online-courses">
+			<div className="online-courses" id="online-courses">
 				<h2>Cursos online</h2>
 				<div>
           {onlineCourses.map((course, index) => (

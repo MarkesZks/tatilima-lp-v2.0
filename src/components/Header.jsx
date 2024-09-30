@@ -10,13 +10,23 @@ import {
 const Header = () => {
   return (
     <>
-      <header className="header">
-        <img src={logo} alt=""/>
+      <header className="header" id="header">
+        <a href="/">
+          <img src={logo} alt="logo" />
+        </a>
         <div className="navbar">
-          <a href="" target="_blank">
+          <a
+            href="https://www.instagram.com/tatiliimasobrancelhass"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaInstagram />
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://api.whatsapp.com/message/UIZEK5CFNJBVL1?autoload=1&app_absent=0"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaWhatsapp />
           </a>
           <a href="" target="_blank">

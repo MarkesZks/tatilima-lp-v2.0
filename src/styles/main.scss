@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import './variables.scss';
-@import 'mixins.scss';
+@import "./variables.scss";
+@import "mixins.scss";
 
 * {
     margin: 0;
@@ -10,13 +10,13 @@
     font-family: "Montserrat", sans-serif;
     color: white;
 }
-body{
+body {
     // todo: linear gradient bg
-    background: linear-gradient(135.9deg, rgb(105, 7, 161) 16.4%, rgb(125, 31, 165) 56.1%);
+    background: rgb(106,13,173);
+    background: linear-gradient(90deg, rgba(106,13,173,1) 40%, rgba(103,36,113,1) 100%);
     margin: 0 20px;
 
     @include responsive(desktop) {
         margin: 0 320px;
     }
-
 }

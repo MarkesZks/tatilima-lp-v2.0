@@ -6,6 +6,7 @@
     align-items: center;
     max-width: 1200px;
     width: 100%;
+    position: relative;
 }
 .container-itens{
     display: flex;
@@ -14,13 +15,18 @@
 }
 
     .logoImg{
-        width: 100%;
-        margin: 30px 0;
+        width: 350px;
+        position: absolute;
+        top: 5px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        z-index: 85; 
     }
     .container{
         .clientImg{ 
+           
             width: 350px;
-             margin:40px 0px 20px 0px;
+             margin:280px 0px 20px 0px;
              border-radius: 2%;
          }
         p{
@@ -32,21 +38,32 @@
             padding: 25px;
             font-size: 20px;
         }
+        a:hover{
+            transition: all 0.5s ease-out;
+            opacity: 0.8;
+        }
     }
     @include responsive('desktop') {
         .container {
             display: flex;
             flex-direction: row;
             align-items: start;
+            position: static;
           
             
             .clientImg{ 
+                margin:40px 0px 20px 0px;
                 width: 500px;
                 border-radius: 2%;
             }
             .logoImg{
-                
+                position: static;
                 width: 450px;
+                //reset
+                top: none; 
+                left: none; 
+                transform: none; 
+                z-index: none; 
                 
             }
             .container-itens{

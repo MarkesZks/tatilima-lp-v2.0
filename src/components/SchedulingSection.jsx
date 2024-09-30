@@ -7,7 +7,6 @@ import { MoveUpRight  } from "lucide-react";
 const SchedulingSection = () => {
   return (
    <section className='container'>
-
     <img src={clientImg} alt="" className='clientImg'/>
     <div className='container-itens'>
         <img src={logo} alt="" className='logoImg' />

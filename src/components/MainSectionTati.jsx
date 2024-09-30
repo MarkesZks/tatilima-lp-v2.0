@@ -4,15 +4,11 @@ import ProfileMainImg from "../assets/images/ProfileMainImg.png";
 import About from "./About";
 import SchedulingSection from "./SchedulingSection";
 import { ChevronDown } from "lucide-react";
+import { scrollToSection } from "../utils/scroll_to_section";
 
 const MainSectionTati = () => {
 
-	const scrollToSection = (sectionId) => {
-		const element = document.getElementById(sectionId)
-		if (element) {
-			element.scrollIntoView({ behavior: 'smooth' })
-		}
-	}
+	
 
 	return (
 		<section >

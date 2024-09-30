@@ -26,6 +26,10 @@
             text-decoration: none;
             color: white;
         }
+        a:hover {
+            opacity: 75%;
+            transition: .3s all ease-in-out;
+        }
 
     }
 }
@@ -34,4 +38,13 @@
      border-bottom: 1.5px solid white;  
     width: 100%;  
 }
+
+@include responsive("desktop") {
+    .header{
+        .navbar{
+            a{
+             font-size: 34px;
+            }}}
+}
+ 
 

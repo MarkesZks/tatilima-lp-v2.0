@@ -7,25 +7,35 @@ import {
     FaPinterest,
     FaSpotify,
   } from "react-icons/fa";
+import { scrollToSection } from '../utils/scroll_to_section';
 const Footer = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <footer className='footer'>
+        <a href="/" onClick={scrollToTop}>
         <img src={logo} alt="Tati Lima Logo" />
+        </a>
         <div className='conteudos-container'>
             <nav className='navbar-footer'>
-              <a href="">Sobre</a>
-                <a href="">Procedimentos</a>
-                <a href="">Cursos</a>
-                <a href="">FAQ</a>
-                <a href="">Seja uma beauty</a>
+              <li onClick={() => scrollToSection('header')}>Tati Lima</li>
+                <li onClick={() => scrollToSection('about-container')}>Sobre</li>
+                <li onClick={() => scrollToSection('face-to-face-courses')}>Cursos Presenciais</li>
+                <li onClick={() => scrollToSection('online-courses')}>Cursos Online</li>
             </nav>
             <p>&copy; 2024 Empresa tatiliimasobrancelhass. Todos os direitos reservados. </p>
         </div>
         <div className="icons">
-          <a href="" target="_blank">
+          <a href="https://www.instagram.com/tatiliimasobrancelhass" target="_blank">
             <FaInstagram />
           </a>
-          <a href="" target="_blank">
+          <a href="https://api.whatsapp.com/message/UIZEK5CFNJBVL1?autoload=1&app_absent=0" target="_blank">
             <FaWhatsapp />
           </a>
           <a href="" target="_blank">
