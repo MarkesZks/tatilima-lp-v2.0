@@ -16,7 +16,7 @@ const SchedulingSection = () => {
 				ref={ref}
 				initial={{ opacity: 0, x: -300 }}
 				animate={isInView ? { opacity: 1, x: 0 } : {}}
-				transition={{ duration: 4, ease: "easeOut" }}
+				transition={{ duration: 2, ease: "easeOut" }}
 			>
 				<img src={clientImg} alt="" className="clientImg" />
 			</motion.div>
@@ -26,14 +26,14 @@ const SchedulingSection = () => {
 				<motion.div
 					initial={{ opacity: 0, x: 300 }}
 					animate={isInView ? { opacity: 1, x: 0 } : {}}
-					transition={{ duration: 4, ease: "easeOut" }}
+					transition={{ duration: 2, ease: "easeOut" }}
 				>
 					<p>
 						Studio Especializado em Sobrancelhas com procedimentos naturais do
 						essencial para o poderoso! Referencia 1° em Ferraz de Vasconcelos -
 						SP.Agende seu momento de Rainha no link abaixo:
 					</p>
-					<a href="/">
+					<a href="https://api.whatsapp.com/message/UIZEK5CFNJBVL1?autoload=1&app_absent=0" target="_blank" rel="noreferrer">
 						Seu momento de 👑<MoveUpRight size={18} />
 					</a>
 				</motion.div>

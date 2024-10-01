@@ -29,16 +29,16 @@ const Header = () => {
           >
             <FaWhatsapp />
           </a>
-          <a href="" target="_blank">
+          <a href="https://pin.it/2RVahrrdS" target="_blank" rel="noreferrer">
             <FaPinterest />
           </a>
-          <a href="" target="_blank">
+          <a href="https://open.spotify.com/playlist/49uZny6BbYPK0tZ9D5x7vo?si=285d4f3d26244a0c " target="_blank" rel="noreferrer">
             <FaSpotify />
           </a>
         </div>
       </header>
       <div className="line-container">
-        <span></span>
+        <span/>
       </div>
     </>
   );

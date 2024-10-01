@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "./variables.scss";
 @import "mixins.scss";
 
@@ -12,8 +12,8 @@
 }
 body {
     // todo: linear gradient bg
-    background: rgb(106,13,173);
-    background: linear-gradient(90deg, rgba(106,13,173,1) 40%, rgba(103,36,113,1) 100%);
+    background: rgb(84,29,92);
+    background: linear-gradient(90deg, rgba(84,29,92,1) 30%, rgba(103,36,113,1) 100%);
     margin: 0 20px;
     overflow-x: hidden;
 

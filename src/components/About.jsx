@@ -36,7 +36,7 @@ const About = () => {
        ref={ref}
        initial={{ opacity: 0, x: -300 }}
        animate={isInView ? { opacity: 1, x: 0 } : {}}
-       transition={{ duration: 2.5, ease: "easeOut" }}
+       transition={{ duration: 1.5, ease: "easeOut" }}
       >
 				<AboutInfo>Agende seu horários</AboutInfo>
 				<AboutInfo>Cursos online</AboutInfo>

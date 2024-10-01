@@ -17,7 +17,7 @@ const Card = ({ image, title, content, buttonText, url, isImageLeft }) => {
 				ref={ref}
 				initial={{ opacity: 0, x: -300 }}
 				animate={isInView ? { opacity: 1, x: 0 } : {}}
-				transition={{ duration: 2.5, ease: "easeOut" }}
+				transition={{ duration: 1.5, ease: "easeOut" }}
 				src={image}
 				alt={title}
 				className="card-image"
@@ -26,7 +26,7 @@ const Card = ({ image, title, content, buttonText, url, isImageLeft }) => {
 			ref={ref}
 			initial={{ opacity: 0, x: 300 }}
 			animate={isInView ? { opacity: 1, x: 0 } : {}}
-			transition={{ duration: 2.5, ease: "easeOut" }}
+			transition={{ duration: 1.5, ease: "easeOut" }}
 			 className="card-content">
 				<span className="card-title">{title}</span>
 				<p>{content}</p>
