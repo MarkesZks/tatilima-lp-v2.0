@@ -6,35 +6,35 @@ import SchedulingSection from "./SchedulingSection";
 import { ChevronDown } from "lucide-react";
 import { scrollToSection } from "../utils/scroll_to_section";
 
+
 const MainSectionTati = () => {
 
-	
-
 	return (
-		<section >
+		<section>
 			<div className="main-section">
-
-			<div className="container">
-				<img
-					src={ProfileMainImg}
-					className="imgMainProfile"
-					alt="Imagem de perfil principal"
-				/>
-				<div className="text-container">
-					<span className="title">Ceo Studio Tati Lima & Mentora</span>
-					<img src={logoTituloMain} alt="Logo principal" className="logo" />
-					<div className="scroll-down" onClick={() => scrollToSection('about-container')}>
-						<ChevronDown className="animated-arrow"/>
-						<span>Role para baixo</span>
+				<div className="container">
+					<img
+						src={ProfileMainImg}
+						className="imgMainProfile"
+						alt="Imagem de perfil principal"
+					/>
+					<div className="text-container">
+						<span className="title">Ceo Studio Tati Lima & Mentora</span>
+						<img src={logoTituloMain} alt="Logo principal" className="logo" />
+						<div
+							className="scroll-down"
+							onClick={() => scrollToSection("about-container")}
+								onKeyUp={() => scrollToSection("about-container")}
+						>
+							<ChevronDown className="animated-arrow" />
+							<span>Role para baixo</span>
+						</div>
 					</div>
 				</div>
 			</div>
-			</div>
-		<About />
-		<SchedulingSection/>
-
+			<About />
+			<SchedulingSection />
 		</section>
-		
 	);
 };
 

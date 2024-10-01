@@ -9,7 +9,7 @@ const AboutInfo = ({ children }) => {
         <img src={smLogo} alt="small logo" className="sm-logo" />
         <p>{children}</p>
       </div>
-        <span className="bottom-line"></span>
+        <span className="bottom-line"/>
     </>
   );
 };

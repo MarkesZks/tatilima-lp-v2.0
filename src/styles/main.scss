@@ -15,6 +15,7 @@ body {
     background: rgb(106,13,173);
     background: linear-gradient(90deg, rgba(106,13,173,1) 40%, rgba(103,36,113,1) 100%);
     margin: 0 20px;
+    overflow-x: hidden;
 
     @include responsive(desktop) {
         margin: 0 320px;
