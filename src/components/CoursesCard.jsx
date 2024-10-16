@@ -1,11 +1,10 @@
 import { useRef } from "react";
-import "../styles/components/card.scss";
+import "../styles/components/coursesCard.scss";
 import "../styles/components/button.scss";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
 
-// Todo: toggle to choose the image size
-const Card = ({ image, title, content, buttonText, url, isImageLeft }) => {
+const CoursesCard = ({ image, title, content, buttonText, url, isImageLeft }) => {
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
 
@@ -40,4 +39,4 @@ const Card = ({ image, title, content, buttonText, url, isImageLeft }) => {
 	);
 };
 
-export default Card;
+export default CoursesCard;

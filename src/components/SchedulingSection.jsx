@@ -2,7 +2,6 @@ import "../styles/components/SchedulingSection.scss";
 import React, { useRef } from "react";
 import logo from "../assets/images/logoAboutMain.png";
 import clientImg from "../assets/images/ClientImageMain.png";
-import { MoveUpRight } from "lucide-react";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
 
@@ -29,13 +28,22 @@ const SchedulingSection = () => {
 					transition={{ duration: 2, ease: "easeOut" }}
 				>
 					<p>
-						Studio Especializado em Sobrancelhas com procedimentos naturais do
-						essencial para o poderoso! Referencia 1° em Ferraz de Vasconcelos -
-						SP.Agende seu momento de Rainha no link abaixo:
+						Studio Especializado em <span className="span-text">Sobrancelhas</span> com procedimentos naturais do
+						essencial para o poderoso!<br/><br/> <span className="span-text">Referencia: </span>1° em Ferraz de Vasconcelos -
+						SP.<br/><br/>Agende seu momento de Rainha no <span className="span-text">link abaixo:</span>
 					</p>
-					<a href="https://api.whatsapp.com/message/UIZEK5CFNJBVL1?autoload=1&app_absent=0" target="_blank" rel="noreferrer">
-						Seu momento de 👑<MoveUpRight size={18} />
-					</a>
+					<div className="btn-container">
+					<button type="button" className="card-button">
+						<a
+							href="https://api.whatsapp.com/message/UIZEK5CFNJBVL1?autoload=1&app_absent=0"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Seu momento de 👑
+						</a>
+					</button>
+
+					</div>
 				</motion.div>
 			</div>
 		</section>

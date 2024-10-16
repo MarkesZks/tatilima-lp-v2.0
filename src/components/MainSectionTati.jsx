@@ -19,7 +19,7 @@ const MainSectionTati = () => {
 						alt="Imagem de perfil principal"
 					/>
 					<div className="text-container">
-						<span className="title">Ceo Studio Tati Lima & Mentora</span>
+						<span className="title">CEO Studio Tati Lima & Mentora</span>
 						<img src={logoTituloMain} alt="Logo principal" className="logo" />
 						<div
 							className="scroll-down"
