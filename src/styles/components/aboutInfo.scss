@@ -4,7 +4,30 @@
   display: flex;
   align-items: center;
   margin: 12px 0;
-  
+
+  .about-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      color: #e74c3c;
+      transform: translateY(-5px);
+
+      .icon {
+        transform: rotate(45deg);
+        transition: transform 0.3s ease;
+      }
+    }
+
+    .icon {
+      margin-left: auto;
+      transition: transform 0.3s ease;
+    }
+  }
 
   .sm-logo {
     width: 36px;
@@ -13,7 +36,7 @@
   }
 
   p {
-    margin: 0;
+    margin-right: 0px;
   }
 
   @include responsive('tablet') {
@@ -27,8 +50,8 @@
 
 .bottom-line {
   display: block;
-  width: 100%; 
-  height: 1px; 
-  background-color: white; 
+  width: 100%;
+  height: 1px;
+  background-color: white;
   margin-top: 5px;
 }

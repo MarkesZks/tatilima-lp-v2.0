@@ -4,8 +4,6 @@ import ImagePlanejamentoLuz from '../assets/images/planejamento-luz.png'
 import ImageConsultoriaShine from '../assets/images/consultoria-shine.png'
 import ImageMentoriaQueen from '../assets/images/mentoria-queen.png'
 
-// TODO: Trabalhar com os breakpoints no content
-
 export const faceToFaceCourses = [
   {
     title: "Start Brows",
