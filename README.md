@@ -14,7 +14,6 @@
 
 <div style="display: flex; justify-content: center; align-items: center;">
 
-<img src="https://media.discordapp.net/attachments/991496734125604915/1197684985159757864/Screenshot_2024-01-18_203159.png?ex=65bc2a10&is=65a9b510&hm=1a80150ecf30aee4ebe0f75a424173d4b22cd82e4dad6818accb5168a48ed036&=&format=webp&quality=lossless&width=1100&height=668">
 </div>
 
 ## **🦄** Como utilizar <a id="como-utilizar"></a>
@@ -42,10 +41,10 @@ $ http://localhost:3000/
 
 ## ♟ Tecnologias <a id="tecnologias"></a>
 
-* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-* ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-* ![GIT](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![GIT](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
 
 ## 🖥 Como Contribuir  <a id="contribuir"></a>
 Agradecemos o seu interesse em contribuir para Tati Lima Sobrancelhas! Siga os passos abaixo para começar:
