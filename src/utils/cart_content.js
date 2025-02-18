@@ -3,8 +3,17 @@ import ImageEvolutionBrows from '../assets/images/evolution-brows.png'
 import ImagePlanejamentoLuz from '../assets/images/planejamento-luz.png'
 import ImageConsultoriaShine from '../assets/images/consultoria-shine.png'
 import ImageMentoriaQueen from '../assets/images/mentoria-queen.png'
+import ImageTatiProfile from '../assets/images/tatiPicture.jpeg'
 
 export const faceToFaceCourses = [
+  {
+    title: "PowerFull Brows",
+    content: "Esse é o mais completo curso da técnica que ganhou espaço nos últimos anos: Brow Lamination 💎 \n\nVocê irá aprender a agregar mais um serviço de qualidade em seu Studio e faturar pelo menos 3x mais com essa técnica maravilhosa de trabalhar! \n\nSaiba mais sobre o curso clicando no botão abaixo 💎",
+    image: ImageTatiProfile,
+    buttonText: "Acessar 💎",
+    url: "https://wa.me/5511959047302",
+    isImageLeft: true,
+  },
   {
     title: "Start Brows",
     content: "Você terá acesso a técnica que fez a Tati ser eleita a melhor Designer de Sobrancelhas da sua cidade.\n\n Ira aprender sobre mapeamento estratégico, epilação na cera, henna, marketing e muito mais!\n\n Para ter acesso a todas as informações e aprender presencialmente, clique no botão abaixo\n",
