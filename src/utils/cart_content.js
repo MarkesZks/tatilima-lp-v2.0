@@ -11,7 +11,7 @@ export const faceToFaceCourses = [
     content: "Esse é o mais completo curso da técnica que ganhou espaço nos últimos anos: Brow Lamination 💎 \n\nVocê irá aprender a agregar mais um serviço de qualidade em seu Studio e faturar pelo menos 3x mais com essa técnica maravilhosa de trabalhar! \n\nSaiba mais sobre o curso clicando no botão abaixo 💎",
     image: ImageTatiProfile,
     buttonText: "Acessar 💎",
-    url: "https://wa.me/5511959047302",
+    url: "https://wa.me/5511959047302?text=Ol%C3%A1%21%20Me%20chamo%20%28nome%29%20e%20quero%20me%20formar%20em%20Brow%20Lamination%21%20Quero%20aprender%20a%20faturar%20mais%21%20Me%20manda%20as%20informa%C3%A7%C3%B5es%20do%20curso%3F",
     isImageLeft: true,
   },
   {
