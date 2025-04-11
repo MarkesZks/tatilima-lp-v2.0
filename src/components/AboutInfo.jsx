@@ -7,7 +7,7 @@ const AboutInfo = ({ children, link }) => {
 		<div>
 			<div className="about-info-container">
 				<img src={smLogo} alt="small logo" className="sm-logo" />
-				<a href={link} target="_blank" rel="noreferrer" class="about-links">
+				<a href={link} target="_blank" rel="noreferrer" className="about-links">
 					<p>{children}</p>
 					<MoveUpRight className="icon" size={20} />
 				</a>
