@@ -23,7 +23,7 @@ const Header = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://api.whatsapp.com/message/UIZEK5CFNJBVL1?autoload=1&app_absent=0"
+            href="https://wa.me/5511959047302?text=Ol%C3%A1%21%20Me%20chamo%20%28coloque%20seu%20nome%20aqui%29%2C%20gostaria%20de%20agendar%20meu%20hor%C3%A1rio%20de%20rainha%21%20%F0%9F%91%B8%F0%9F%8F%BB"
             target="_blank"
             rel="noreferrer"
           >
