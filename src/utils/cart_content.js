@@ -7,11 +7,11 @@ import ImageTatiProfile from '../assets/images/tatiPicture.jpeg'
 
 export const faceToFaceCourses = [
   {
-    title: "PowerFull Brows",
-    content: "Esse é o mais completo curso da técnica que ganhou espaço nos últimos anos: Brow Lamination 💎 \n\nVocê irá aprender a agregar mais um serviço de qualidade em seu Studio e faturar pelo menos 3x mais com essa técnica maravilhosa de trabalhar! \n\nSaiba mais sobre o curso clicando no botão abaixo 💎",
+    title: "Treinamento DB",
+     content: "O Treibamento DB é o workshop mais completo presencialmente que você já viu! 1 dia de curso, você ire aprender a como executar técnica de brow lamination que entrega: naturalidade, reconstrução e encanto - isso tudo com o método Diamond Brow.\n\n Entre agora no grupo vip para garantir sua vaga, pois serão limitadas e somente por lá, as vagas serão abertas! Clique no link abaixo 💎",
     image: ImageTatiProfile,
-    buttonText: "Acessar 💎",
-    url: "https://wa.me/5511959047302?text=Ol%C3%A1%21%20Me%20chamo%20%28nome%29%20e%20quero%20me%20formar%20em%20Brow%20Lamination%21%20Quero%20aprender%20a%20faturar%20mais%21%20Me%20manda%20as%20informa%C3%A7%C3%B5es%20do%20curso%3F",
+    buttonText: "Venha ser VIP 💎",
+    url: "https://chat.whatsapp.com/JUqOeK5zur22RA9Sero4sS",
     isImageLeft: true,
   },
   {
